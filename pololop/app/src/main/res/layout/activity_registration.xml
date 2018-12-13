@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegistrationActivity">
+
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical">
+
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:text="Name"
+                        android:ems="10"
+                        android:id="@+id/editNameUser"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:text="Name"
+                        android:ems="10"
+                        android:id="@+id/editSurnameUser"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80px" android:id="@+id/textViewDate" android:textSize="20sp"
+                        android:hint="Date"/>
+                <!--<com.santalu.maskedittext.MaskEditText-->
+                        <!--android:id="@+id/editPhoneUser"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:hint=""-->
+                        <!--android:inputType="phone"-->
+                        <!--app:met_mask="+38 ### ### ## ##"/>-->
+                <EditText
+                        android:id="@+id/editPhoneUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="1234567890+ "
+                        android:inputType="number" android:hint="+38 ### ### ## ##"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:id="@+id/editEmailUser"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:ems="10"
+                        android:id="@+id/editPasswordUser"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="100dp"
+                            android:scaleType="fitXY"
+                            tools:srcCompat="@tools:sample/avatars"
+                            android:id="@+id/imageUser" android:layout_weight="1"/>
+                    <Button
+                            android:text="Button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/buttonPhoto"
+                            android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="100dp"
+                            android:scaleType="fitXY"
+                            tools:srcCompat="@tools:sample/avatars"
+                            android:id="@+id/imagePrava" android:layout_weight="1"/>
+                    <Button
+                            android:text="Button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/buttonPrava"
+                            android:layout_weight="1"/>
+                </LinearLayout>
+                <Button
+                        android:text="Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/buttonContRegist"/>
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

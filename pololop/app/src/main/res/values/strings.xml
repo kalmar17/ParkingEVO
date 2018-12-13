@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="error_field_required">Некоректный ввод</string>
+    <string name="error_invalid_password">Пароль слишком короткий</string>
+    <string name="error_incorrect_password">Некоректный ввод</string>
+
+    <string name="fa_map">\uf279</string>
+    <string name="fa_qrcode">\uf029</string>
+</resources>

@@ -1,5 +1,3 @@
-package com.example.kalmar17.pololop
-
 import java.util.*
 
 class ClientUser() {

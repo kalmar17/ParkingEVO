@@ -1,5 +1,3 @@
-package com.example.kalmar17.pololop
-
 class Spot() {
     constructor(numberSpot:Int,stateSpot:Boolean,socketSpot:Boolean):this(){
         number = numberSpot

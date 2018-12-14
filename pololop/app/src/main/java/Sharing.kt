@@ -1,6 +1,6 @@
-package com.example.kalmar17.pololop
+import History
 
-class Sharing() :History() {
+class Sharing() : History() {
 
     var ownerLogin:String
     get() {return ownerLogin}

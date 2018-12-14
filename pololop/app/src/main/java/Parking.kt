@@ -1,7 +1,5 @@
-package com.example.kalmar17.pololop
-
 class Parking() {
-    constructor(addressParking:String,spot_countParking:Int,spotsParking: Spot,priceParking: Float):this(){
+    constructor(addressParking:String, spot_countParking:Int, spotsParking: Spot, priceParking: Float):this(){
         address = addressParking
         spot_count = spot_countParking
         price = priceParking

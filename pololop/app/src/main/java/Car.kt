@@ -1,7 +1,5 @@
-package com.example.kalmar17.pololop
-
 class Car() {
-    constructor(numberCar:String,colorCar:String,carNickNameCar:String,brandCar:String,parkingCar: Parking,currLocationCar:String,sharedCar:String ):this(){
+    constructor(numberCar:String, colorCar:String, carNickNameCar:String, brandCar:String, parkingCar: Parking, currLocationCar:String, sharedCar:String ):this(){
         number = numberCar
         color = colorCar
         carNickName = carNickNameCar

@@ -229,7 +229,7 @@ class RegistrationActivity : AppCompatActivity() {
             var cancel = false
             var focusView :View? = null
 
-        if(!isPhotoValid(imagePrava)){
+        if(isPhotoValid(imagePrava)){
             buttonPrava.error = getString(R.string.error_field_required)
             focusView = buttonPrava
             cancel = true
